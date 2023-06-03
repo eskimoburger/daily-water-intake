@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* Dark theme */
+.dark {
+  background-color: #343a40;
+  color: #e88d0c;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* Light theme */
+.light {
+  background-color: #f8f9fa;
+  color: #343a40;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.light .toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: black;
+  transition: color 0.3s;
+}
+
+.dark .toggle-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+input[type="text"]::placeholder {
+  opacity: 0.5;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button[type="reset"] {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="reset"]:hover {
+  background-color: #b50101;
+}
+
+/* add responsive all font  */
+@media (max-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  button[type="reset"] {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+}
+
+/* enter more responsive */
+@media (max-width: 576px) {
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  button[type="reset"] {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+/* enter more responsive */
+@media (max-width: 320px) {
+  p {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  button[type="reset"] {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 10px;
+    border: none;
+    border-radius: 4px;
+
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  
+}
